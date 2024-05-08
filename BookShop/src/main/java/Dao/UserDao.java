@@ -1,5 +1,6 @@
 package Dao;
 
+<<<<<<< HEAD
 
 import DB.DbConnectionn;
 import Model.User;
@@ -43,4 +44,20 @@ public class UserDao {
         }
         return registered;
     }
+=======
+import Model.User;
+
+import java.sql.SQLException;
+
+public interface UserDao {
+    int verifieUser(String login, String passWord);
+
+    void insertUser(User user);
+
+    User getUser(String email) throws SQLException, ClassNotFoundException;
+
+    int getEndId();
+>>>>>>> d505625704401a3632d578fd16ce7bbc8e44dedf
 }
+
+

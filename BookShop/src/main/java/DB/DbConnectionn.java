@@ -1,6 +1,9 @@
 package DB;
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> d505625704401a3632d578fd16ce7bbc8e44dedf
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -20,4 +23,8 @@ public class DbConnectionn {
         }
         return connection;
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> d505625704401a3632d578fd16ce7bbc8e44dedf

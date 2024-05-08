@@ -13,10 +13,14 @@
 
     *{
         font-family: 'Poppins', sans-serif;
+        margin: 0px;
     }
     .wrapper{
         background: #a14e00;
         padding: 0 20px 0 20px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
     }
     .main{
         display: flex;
